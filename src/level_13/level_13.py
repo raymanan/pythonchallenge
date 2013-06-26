@@ -9,5 +9,8 @@ server = xmlrpclib.Server('http://www.pythonchallenge.com/pc/phonebook.php')
 ## we'll need to discover Server API
 # print server.system.listMethods()
 print server.phone('Bert')
+print server.phone('evil')
 
 print ord('Y')
+
+#italy
