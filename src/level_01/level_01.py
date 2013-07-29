@@ -11,5 +11,9 @@ bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qr
 kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj. """
     text2 = "map"
     table = string.maketrans(string.ascii_lowercase, string.ascii_lowercase[2:] + string.ascii_lowercase[:2]) 
-    print text1.translate(table)
+    print text2.translate(table)
     pass
+
+if __name__ == '__main__':
+    run()
+    pass  
