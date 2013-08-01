@@ -15,3 +15,9 @@ def run():
     avgOC = len(s) // len(OCCURRENCES)
     print ''.join([c for c in s if OCCURRENCES[c] < avgOC])  
     pass
+
+if __name__ == '__main__':
+    run()
+    pass
+
+#equality

@@ -28,3 +28,10 @@ def run():
     print "".join(re.findall('[^A-Z][A-Z]{3}([a-z])[A-Z]{3}[^A-Z]', open("re", "r").read()))
 
     pass
+
+
+if __name__ == '__main__':
+    run()
+    pass
+
+#linkedlist

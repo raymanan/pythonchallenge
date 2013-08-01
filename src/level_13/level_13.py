@@ -6,11 +6,12 @@ Created on 2013-4-19
 import xmlrpclib
 
 server = xmlrpclib.Server('http://www.pythonchallenge.com/pc/phonebook.php')
-## we'll need to discover Server API
+# # we'll need to discover Server API
 # print server.system.listMethods()
 print server.phone('Bert')
 print server.phone('evil')
+print "Leopold: " + server.phone('Leopold')
 
 print ord('Y')
 
-#italy
+# italy
