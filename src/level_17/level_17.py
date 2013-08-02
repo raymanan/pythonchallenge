@@ -3,6 +3,8 @@ Created on 2013-8-1
 
 @author: nan
 '''
+# http://www.pythonchallenge.com/pc/return/romance.html
+
 # Cookie: info=you+should+have+followed+busynothing...
 
 import urllib, re, bz2
@@ -37,6 +39,6 @@ def cookie():
     #oh well, don't you dare to forget the balloons.
 
 if __name__ == '__main__':
-    getInfo()
+#    getInfo()
     cookie()
     pass

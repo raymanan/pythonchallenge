@@ -3,6 +3,9 @@ Created on 2013-8-1
 
 @author: nan
 '''
+# http://www.pythonchallenge.com/pc/hex/bin.html
+# butter
+# fly
 
 import email, wave
 
@@ -37,7 +40,20 @@ for i in range(old.getnframes()):
     new.writeframes(old.readframes(1)[::-1])
 
 new.close()
- 
+
+# leopold_email = email.message_from_string(message)
+# leopold_email.get_payload(0).get_payload(decode=True)
+# def reversesound(source):
+#    reverse = wave.open('reversed.wav', 'wb')
+#    reverse.setparams(source.getparams())
+#    for i in range(source.getnframes()):
+#        reverse.writeframes(source.readframes(1)[::-1])
+#    reverse.close()
+# import array
+# frames = array.array("H", source.readframes(source.getnframes()))
+# frames.byteswap()
+# reversed.writeframes(frames.tostring())
+
 # import email
 # mail=email.message_from_file(open('19.txt'))
 # for part in mail.walk():

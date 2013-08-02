@@ -3,6 +3,7 @@ Created on 2013-8-1
 
 @author: nan
 '''
+# http://www.pythonchallenge.com/pc/return/balloons.html
 
 import gzip, difflib
 
